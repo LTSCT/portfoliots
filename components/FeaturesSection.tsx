@@ -1,4 +1,5 @@
 
+import Image from 'next/image';
 import { Button } from './ui/button';
 
 export function FeaturesSection() {
@@ -9,7 +10,7 @@ export function FeaturesSection() {
         {/* Simple task management */}
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="lg:order-2">
-            <img
+            <Image
               src="/mz.png"
               alt="Business person working"
               className="w-full h-auto rounded-lg"
@@ -50,7 +51,7 @@ export function FeaturesSection() {
             </Button>
           </div>
           <div>
-           <img
+           <Image
               src="/am.jpg"
               alt="Business person working"
               className="w-full h-auto rounded-lg"
@@ -78,7 +79,7 @@ export function FeaturesSection() {
             </Button>
           </div>
           <div>
-            <img
+            <Image
               src="/ms.png"
               alt="Business person working"
               className="w-full h-auto rounded-lg"

@@ -5,6 +5,7 @@ import { useTheme } from '@/context/ThemeContext'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useState } from 'react'
 import { Avatar } from './ui/avatar'
+import Image from 'next/image'
 /*import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/nextjs'*/
 
 export default function NavbarHome() {
@@ -28,10 +29,10 @@ export default function NavbarHome() {
         <div className="flex items-center justify-between h-16">
           <Link href="/home" className="flex text-xl font-bold text-primary">
             <Avatar>
-              <img src="/profile1.png" alt="" />
+              <Image src="/profile1.png" alt="" />
               
             </Avatar>
-            T'Ley&trade;
+            T Ley&trade;
           </Link>
           
           {/* Desktop Menu */}
