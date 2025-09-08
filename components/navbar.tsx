@@ -29,7 +29,7 @@ export default function NavbarHome() {
         <div className="flex items-center justify-between h-16">
           <Link href="/home" className="flex text-xl font-bold text-primary">
             <Avatar>
-              <Image src="/profile1.png" alt="" />
+              <Image src="profile1.png" alt="" />
               
             </Avatar>
             T Ley&trade;

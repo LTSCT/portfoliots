@@ -51,7 +51,7 @@ const dummyContent = [
     ),
     badge: "ຄະນະ ນິຕິສາດ ແລະ ລັດຖະສາດ ສິງຫາ 2018-ມິຖຸນາ 2022.",
     image:
-      "/timeline1.jpg",
+      "timeline1.jpg",
   },
   {
     title: "Lorem Ipsum Dolor Sit Amet",
@@ -72,7 +72,7 @@ const dummyContent = [
     ),
     badge: "ກອງທັບປະຊາຊົນລາວ ກອງພັນ512 ທັນວາ.2024 - ມິຖຸນາ.2025",
     image:
-      "/timeline2.jpg",
+      "timeline2.jpg",
   },
   {
     title: "Lorem Ipsum Dolor Sit Amet",
@@ -85,7 +85,7 @@ const dummyContent = [
     ),
     badge: "ມ.ສ ສະໜາມໄຊ ແຂວງ ອັດຕະປຶ ກັນຍາ.2011 - ມິຖຸນາ.2018",
     image:
-      "/timeline3.jpg",
+      "timeline3.jpg",
   },
   
 ];

@@ -11,7 +11,7 @@ export function FeaturesSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="lg:order-2">
             <Image
-              src="/mz.png"
+              src="mz.png"
               alt="Business person working"
               className="w-full h-auto rounded-lg"
             />
@@ -52,7 +52,7 @@ export function FeaturesSection() {
           </div>
           <div>
            <Image
-              src="/am.jpg"
+              src="am.jpg"
               alt="Business person working"
               className="w-full h-auto rounded-lg"
             />
@@ -80,7 +80,7 @@ export function FeaturesSection() {
           </div>
           <div>
             <Image
-              src="/ms.png"
+              src="ms.png"
               alt="Business person working"
               className="w-full h-auto rounded-lg"
             />

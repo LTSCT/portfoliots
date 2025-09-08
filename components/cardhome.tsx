@@ -5,11 +5,11 @@ import Image from "next/image";
 
 export function Cardhome() {
   const images = [
-    "/leyll.jpg",
-    "/flp1.jpg",
-    "/flp2.jpg",
-    "/army.jpg",
-    "/vvv2.png",
+    "leyll.jpg",
+    "flp1.jpg",
+    "flp2.jpg",
+    "army.jpg",
+    "vvv2.png",
     
   ];
   return (
