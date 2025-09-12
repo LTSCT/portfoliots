@@ -16,7 +16,7 @@ export default function HomePage() {
     <div className={`${phetsarathFont.variable}`}>
     <div className="bg-muted flex miSn-h-svh flex-col items-center justify-center p-6 md:p-10 font-main">
       <div className="w-full max-w-sm md:max-w-3xl">
-          <div className={`container mx-auto p-8 pt-26 font-phetsarath`}>
+          <div className="container mx-auto p-8 pt-26 font-main">
             <h1 className="mb-4 text-center text-3xl">
               ຍິນດີຕອນຮັບ, ຄົນຫລໍ່ແລະນ່າຮັກ ເຂົ້າສູ່ເຂົາວົງກົດປ່າທຶບໜາ!!
             </h1>
