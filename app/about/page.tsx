@@ -1,10 +1,17 @@
 
 import Image from "next/image";
+import { Phetsarath } from "next/font/google";
+
+const phetsarathFont = Phetsarath({
+    subsets: ["lao"],
+    weight: "400",
+    variable: "--font-phetsarath",
+});
 
 export default function AboutPage() {
   return (
-    <div className="bg-muted flex miSn-h-svh flex-col items-center justify-center p-6 md:p-10">
-        
+    <div className={`${phetsarathFont.variable}`}>
+    <div className="bg-muted flex miSn-h-svh flex-col items-center justify-center p-6 md:p-10 font-main"> 
         <div className="font-phetsarath">
             <main className="flex-auto">
                 <div className="sm:px-8 mt-16 sm:mt-32">
@@ -79,6 +86,7 @@ export default function AboutPage() {
             </main>
         </div>
         
+    </div>
     </div>
   )
 }

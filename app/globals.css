@@ -14,6 +14,7 @@
   --color-bg: #ffffff;
   --font-sans: 'Inter', sans-serif;
   --font-phetsarath: "Phetsarath", sans-serif;
+  --font-main: var(--font-phetsarath);
 
   --animation-fade-in: fadeIn 0.5s ease-in-out;
   --animation-slide-up: slideUp 0.5s ease-in-out;
