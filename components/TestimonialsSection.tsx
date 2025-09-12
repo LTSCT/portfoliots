@@ -1,4 +1,11 @@
 import { Card } from './ui/card';
+import { Phetsarath } from "next/font/google";
+
+const phetsarathFont = Phetsarath({
+    subsets: ["lao"],
+    weight: "400",
+    variable: "--font-phetsarath",
+});
 
 
 export function TestimonialsSection() {
@@ -30,8 +37,8 @@ export function TestimonialsSection() {
   ];
 
   return (
-    <section className={`py-20 px-6 font-phetsarath`}>
-      <div className="container mx-auto max-w-7xl">
+    <section className={`py-20 px-6 ${phetsarathFont.variable}`}>
+      <div className="container mx-auto max-w-7xl font-main">
         <h2 className="text-3xl lg:text-4xl font-bold text-center mb-16">
           ຂ່າວສານ
         </h2>

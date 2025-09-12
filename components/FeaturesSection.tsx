@@ -1,11 +1,18 @@
 
 import Image from 'next/image';
 import { Button } from './ui/button';
+import { Phetsarath } from "next/font/google";
+
+const phetsarathFont = Phetsarath({
+    subsets: ["lao"],
+    weight: "400",
+    variable: "--font-phetsarath",
+});
 
 export function FeaturesSection() {
   return (
-    <section className= {`py-20 px-6 font-phetsarath`}>
-      <div className="container mx-auto max-w-7xl space-y-20">
+    <section className={`py-20 px-6${phetsarathFont.variable}`}>
+      <div className="container mx-auto max-w-7xl space-y-20 font-main">
         
         {/* Simple task management */}
         <div className="grid lg:grid-cols-2 gap-12 items-center">

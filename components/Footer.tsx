@@ -1,10 +1,17 @@
 import { Button } from './ui/button';
 import { Input } from './ui/input';
+import { Phetsarath } from "next/font/google";
+
+const phetsarathFont = Phetsarath({
+    subsets: ["lao"],
+    weight: "400",
+    variable: "--font-phetsarath",
+});
 
 export function Footer() {
   return (
-    <footer className={` py-16 px-6 font-phetsarath`}>
-      <div className="container mx-auto max-w-7xl">
+    <footer className={`py-16 px-6 ${phetsarathFont.variable}`}>
+      <div className="container mx-auto max-w-7xl font-main">
         <div className="grid md:grid-cols-4 gap-8">
           
           {/* Company */}

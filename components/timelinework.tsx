@@ -1,6 +1,13 @@
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
 import Image from "next/image";
+import { Phetsarath } from "next/font/google";
+
+const phetsarathFont = Phetsarath({
+    subsets: ["lao"],
+    weight: "400",
+    variable: "--font-phetsarath",
+});
 
 
 export function TimelineDemo() {
@@ -9,7 +16,8 @@ export function TimelineDemo() {
       
       title: " ກອງທັບປະຊາຊົນລາວ 2024-2025",
       content: (
-        <div className={"font-phetsarath"}>
+        <div className={`${phetsarathFont.variable}`}>
+        <div className="font-main">
           <p className="mb-2 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
             ເຄືອນໄຫວວຽກງານທາງການທະຫານ ແລະ ຍັງປະຕິບັດການສຶກສາຮໍ່າຮຽນ
           </p>
@@ -54,13 +62,15 @@ export function TimelineDemo() {
             />
           </div>
         </div>
+        </div>
       ),
     },
      {
 
       title: " ບໍລິສັດ ໂຊກໄຊ ກຸ່ມ - Lotteria 2023-2024",
       content: (
-        <div className={"font-phetsarath"}>
+        <div className={`${phetsarathFont.variable}`}>
+        <div className="font-main">
           <p className="mb-2 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
             ເຂົ້າເຮັດວຽກເຄືອນໄຫວວຽກງານ ເປັນພະນັກງານເອກະຊົນ
           </p>
@@ -104,12 +114,14 @@ export function TimelineDemo() {
             />
           </div>
         </div>
+        </div>
       ),
     }, 
     {
       title: " ບໍລິສັດ ສະກາວິ-ລາວ 2022-2023",
       content: (
-        <div className={"font-phetsarath"}>
+        <div className={`${phetsarathFont.variable}`}>
+        <div className="font-main">
           <p className="mb-2 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
             ເຂົ້າເຮັດວຽກເຄືອນໄຫວວຽກງານ ເປັນພະນັກງານເອກະຊົນ
           </p>
@@ -136,12 +148,14 @@ export function TimelineDemo() {
               />
             </div>
         </div>
+        </div>
       ),
     },
     {
       title: " ກຸ່ມ ພັດທະນາຊຸ່ມຊົນ ຄນລ 2018 - 2022",
       content: (
-        <div className={"font-phetsarath"}>
+        <div className={`${phetsarathFont.variable}`}>
+        <div className="font-main">
           <p className="mb-2 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
             ເຄືອນໄຫວວຽກງານ ອາສາສະໝັກ ແລະ ຍັງປະຕິບັດການສຶກສາຮໍ່າຮຽນ
           </p>
@@ -185,12 +199,14 @@ export function TimelineDemo() {
             />
           </div>
         </div>
+        </div>
       ),
     },
     {
       title: " ອົງການ ໄອຍະການປະຊາຊົນ ເຂດ III 2021-2022",
       content: (
-        <div className={"font-phetsarath"}>
+        <div className={`${phetsarathFont.variable}`}>
+        <div className="font-main">
           <p className="mb-2 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
             ປະສົບການໃນການຝຶກງານ ທາງດ້ານໄອຍະການ 3 ເດືອນ.
           </p>
@@ -222,6 +238,7 @@ export function TimelineDemo() {
               className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
             />
           </div>
+        </div>
         </div>
       ),
     },

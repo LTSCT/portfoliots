@@ -2,10 +2,19 @@
 import Centerhome from "@/components/cardcenterhome";
 import { Cardhome } from "@/components/cardhome";
 import { Cardworkhome } from "@/components/cardworkhome";
+import { Phetsarath } from "next/font/google";
+
+const phetsarathFont = Phetsarath({
+    subsets: ["lao"],
+    weight: "400",
+    variable: "--font-phetsarath",
+});
+
 
 export default function HomePage() {
   return (
-    <div className="bg-muted flex miSn-h-svh flex-col items-center justify-center p-6 md:p-10">
+    <div className={`${phetsarathFont.variable}`}>
+    <div className="bg-muted flex miSn-h-svh flex-col items-center justify-center p-6 md:p-10 font-main">
       <div className="w-full max-w-sm md:max-w-3xl">
           <div className={`container mx-auto p-8 pt-26 font-phetsarath`}>
             <h1 className="mb-4 text-center text-3xl">
@@ -21,6 +30,7 @@ export default function HomePage() {
         <Cardhome />
         <Centerhome />
         <Cardworkhome />
+    </div>
     </div>
   )
 }

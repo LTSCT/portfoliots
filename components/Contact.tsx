@@ -4,6 +4,13 @@ import { useState } from 'react'
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 import { fadeInUp, fadeIn, slideInLeft, slideInRight } from '@/lib/animations'
+import { Phetsarath } from "next/font/google";
+
+const phetsarathFont = Phetsarath({
+    subsets: ["lao"],
+    weight: "400",
+    variable: "--font-phetsarath",
+});
 
 interface FormData {
   name: string;
@@ -51,7 +58,8 @@ export default function Contact() {
   }
 
   return (
-    <div className="container max-w-7xl mx-auto py-12 font-phetsarath ">
+    <div className={`${phetsarathFont.variable}`}>
+    <div className="container max-w-7xl mx-auto py-12 font-main ">
       <motion.h1 
         className="text-4xl font-bold mb-8 text-center"
         {...fadeInUp}
@@ -213,6 +221,7 @@ export default function Contact() {
           </motion.form>
         </motion.div>
       </div>
+    </div>
     </div>
   )
 } 

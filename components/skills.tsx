@@ -7,6 +7,13 @@ import {
   IconHexagonLetterTFilled,
   IconTerminal2,
 } from "@tabler/icons-react";
+import { Phetsarath } from "next/font/google";
+
+const phetsarathFont = Phetsarath({
+    subsets: ["lao"],
+    weight: "400",
+    variable: "--font-phetsarath",
+});
 
 export function FeaturesSectionDemo() {
   const features = [
@@ -46,10 +53,12 @@ export function FeaturesSectionDemo() {
     },
   ];
   return (
-    <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  relative z-10 py-10 max-w-7xl mx-auto font-phetsarath`}>
+    <div className={`${phetsarathFont.variable}`}>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  relative z-10 py-10 max-w-7xl mx-auto font-main">
       {features.map((feature, index) => (
         <Feature key={feature.title} {...feature} index={index} />
       ))}
+    </div>
     </div>
   );
 }

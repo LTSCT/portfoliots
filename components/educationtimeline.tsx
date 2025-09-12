@@ -3,11 +3,18 @@
 import React from "react";
 import { TracingBeam } from "./ui/tracing-beam";
 import Image from "next/image";
+import { Phetsarath } from "next/font/google";
+
+const phetsarathFont = Phetsarath({
+    subsets: ["lao"],
+    weight: "400",
+    variable: "--font-phetsarath",
+});
 
 export function Educationtimeline() {
   return (
-    <TracingBeam className={`px-6 pt-20 font-bold font-phetsarath`}>
-      <div className="max-w-2xl mx-auto antialiased pt-6 relative">
+    <TracingBeam className={`px-6 pt-20 font-bold${phetsarathFont.variable}`}>
+      <div className="max-w-2xl mx-auto antialiased pt-6 relative font-main">
         {dummyContent.map((item, index) => (
           <div key={`content-${index}`} className="mb-10">
             <h2 className="bg-black text-white rounded-full text-sm w-fit px-4 py-1 mb-4">
