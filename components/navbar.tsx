@@ -32,7 +32,7 @@ export default function NavbarHome() {
               <Image src="profile1.png" alt="" />
               
             </Avatar>
-            T Ley&trade;
+            T&apos;Ley&#67;&#76;&#83;
           </Link>
           
           {/* Desktop Menu */}

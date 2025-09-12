@@ -29,8 +29,8 @@ export function TeamworkHubSection() {
                   <div className="flex items-center gap-3 p-3 rounded-lg">
                     <div className="w-8 h-8 bg-orange-500 rounded-full"></div>
                     <div className="flex-1">
-                      <div className="font-medium">Team Standup</div>
-                      <div className="text-sm text-gray-500">9:00 AM - 9:30 AM</div>
+                      <div className="font-medium">ເວລາເຮັດວຽກ</div>
+                      <div className="text-sm text-gray-500">8:00 AM - 11:30 AM</div>
                     </div>
                     <div className="text-sm text-gray-400">3 min</div>
                   </div>
@@ -38,7 +38,7 @@ export function TeamworkHubSection() {
                   <div className="flex items-center gap-3 p-3 rounded-lg">
                     <div className="w-8 h-8 bg-blue-500 rounded-full"></div>
                     <div className="flex-1">
-                      <div className="font-medium">Design Review</div>
+                      <div className="font-medium">ການທົບທວນຄືນການອອກແບບ</div>
                       <div className="text-sm text-gray-500">2:00 PM - 3:00 PM</div>
                     </div>
                     <div className="text-sm text-gray-400">45 min</div>
@@ -47,7 +47,7 @@ export function TeamworkHubSection() {
                   <div className="flex items-center gap-3 p-3 rounded-lg">
                     <div className="w-8 h-8 bg-green-500 rounded-full"></div>
                     <div className="flex-1">
-                      <div className="font-medium">Sprint Planning</div>
+                      <div className="font-medium">ການວາງແຜນ Sprint</div>
                       <div className="text-sm text-gray-500">4:00 PM - 5:00 PM</div>
                     </div>
                     <div className="text-sm text-gray-400">1 hr</div>

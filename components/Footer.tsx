@@ -11,7 +11,7 @@ export function Footer() {
           <div className="space-y-4">
             <div className="text-lg font-semibold text-orange-400">ທີມງານ</div>
             <p className="text-gray-400 text-sm leading-relaxed">
-             T LEYCLS. All-in-one 
+             T&apos;LEYCLS. All-in-one 
             </p>
           </div>
 
@@ -70,7 +70,7 @@ export function Footer() {
           
           <div className="mt-8 pt-8 border-t border-gray-700 text-center">
             <p className="text-sm text-gray-400">
-              © 2025 T LEYCLS. All rights reserved.
+              © 2025 T&apos;LEY&#67;&#76;&#83;. All rights reserved.
             </p>
           </div>
         </div>
